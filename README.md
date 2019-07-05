@@ -1,9 +1,14 @@
-# INTRODUZIONE #
+ <center># INTRODUZIONE # </center> 
 
 In questo progetto utilizziamo 7 file, tra cui  5 file .c, un makefile ed  un file header.
-Abbiamo: gestore.c, a.c, b.c e morte.c. 
-È presente anche un file common.c che contiene metodi di ausilio a tutti i restanti file.
-AVVIO
+Abbiamo: 
+1. gestore.c 
+2. a.c 
+3. b.c  
+4. morte.c
+
+È presente anche un file _common.c_ che contiene metodi di ausilio a tutti i restanti file.
+## AVVIO #
 Per avviare la simulazione digitare il comando make da terminale così da compilare automaticamente tutti i file sorgenti e lanciare il gestore.
 Per impostare il numero di processi che si vuole immettere nella popolazione e che resterà tale per tutta la durata del procedimento, basta modificare il valore INIT_PEOPLE nell’ header, il quale deve essere >2 per garantire la funzionalità del progetto.
 Le variabili birth_death (la quale stabilisce ogni quanti secondi terminare casualmente un processo),  sim_time (che stabilisce la durata della simulazione) e genes (utile nel calcolo dei genomi), vengono richieste all’utente al momento dell’avvio.
