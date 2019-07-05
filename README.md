@@ -1,5 +1,6 @@
  # INTRODUZIONE # 
 Autore: _Silvestro Stefano Frisullo_
+
 In questo progetto utilizziamo 7 file, tra cui  5 file .c, un makefile ed  un file header.
 Abbiamo: 
 1. gestore.c 
