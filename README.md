@@ -1,4 +1,4 @@
-#INTRODUZIONE
+#INTRODUZIONE#
 
 In questo progetto utilizziamo 7 file, tra cui  5 file .c, un makefile ed  un file header.
 Abbiamo: gestore.c, a.c, b.c e morte.c. 
