@@ -13,7 +13,7 @@ Per avviare la simulazione digitare il comando _make_ da terminale così da comp
 Per impostare il numero di processi che si vuole immettere nella popolazione e che resterà tale per tutta la durata del procedimento, basta modificare il valore INIT_PEOPLE nell’ header, il quale deve essere >2 per garantire la funzionalità del progetto.
 Le variabili _birth_death_ (la quale stabilisce ogni quanti secondi terminare casualmente un processo),  _sim_time_ (che stabilisce la durata della simulazione) e _genes_ (utile nel calcolo dei genomi), vengono richieste all’utente al momento dell’avvio.
 
-##FUNZIONAMENTO # 
+##FUNZIONAMENTO ## 
 Il tutto ha  inizio dal gestore che costituisce il nostro processo padre e che darà vita a tutti gli altri processi.
  Esso crea i semafori che serviranno a coordinare lo svolgimento della simulazione, una memoria condivisa (il cui accesso è regolato da un semaforo) visibile a tutti in cui viene inizializzato un array di struct di dimensione _INIT_PEOPLE_ e due code di messaggi, una che verrà utilizzata per le comunicazioni fra i processi  A e B ed un’altra che sarà usata dal gestore  e i processi B.
 Il processo appena nato, tramite una **execlp()** eseguita dalla funzione nasci , esegue il proprio codice a seconda del tipo e  gli si passa come parametro la sua posizione in memoria condivisa.
