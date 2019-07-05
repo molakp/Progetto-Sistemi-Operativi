@@ -1,5 +1,5 @@
 #include "common.c"
-
+// Developed for Unito 
 int signal1 = 0, signal2 = 0; // per sapere se ho ricevuto segnali mentre in sezione critica
 
 // Variabili per statistiche simulazione
