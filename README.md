@@ -1,5 +1,7 @@
 # Operating Systems Project #
-This repository contains the source code and documentation for an Operating Systems project developed as a part of a university course. The project simulates a simple operating system and includes functionality such as process scheduling, memory management, and file system management. The project was authored by Silvestro Stefano Frisullo.
+This repository contains the source code and documentation for an Operating Systems project developed as a part of a university course.The project simulates agents interacting and mating, creating offspring based on their DNA.
+
+ The project was authored by Silvestro Stefano Frisullo.
 
 ## Files
 The project consists of 7 files, including 5 .c files, a makefile, and a header file. The files are:
